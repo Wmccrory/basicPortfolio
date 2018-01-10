@@ -2,7 +2,7 @@ header {
 	height: 90px;
 	margin-bottom: 50px;
 	background-color: #ffffff;
-	border-bottom: solid 2px #cccccc;
+	border-bottom: solid 5px #4aaaa5;
 }
 
 h1 {
@@ -12,11 +12,17 @@ h1 {
 	font-family: "Georgia", Times, Times New Roman, sans-serif;
 	background-color: #4aaaa5;
 	color: white;
-	font-size: 50px;
+	font-size: 51px;
 }
 
 h2 {
 	font-size: 40px;
+	color: #5e5e5e;
+}
+
+h3 {
+	font-size: 20px;
+	color: #5e5e5e;
 }
 
 nav {
@@ -25,6 +31,7 @@ nav {
 
 body {
 	clear: both;
+	background: url("../../images/background.png");
 	width: 960px;
 	margin:auto;
 }
@@ -49,8 +56,16 @@ footer {
 .navbar {
 	float: right;
 	text-align: center;
+	text-decoration: none;
 	width: 50px;
-	padding: 20px;
+	padding: 25px;
+	margin: 10px;
+}
+
+.navbar:hover { 
+   background-color: #4aaaa5;
+   opacity: 0.6;
+   color: white;
 }
 
 .content {
@@ -63,7 +78,10 @@ footer {
 }
 
 .sidebar {
-	clear: both;
+	float: left;
+	margin-left: 40px;
+	padding: 50px;
+	height: 200px;
 	width: 270px;
 	text-align: center;
 }
@@ -71,13 +89,20 @@ footer {
 .mediaIcon {
 	max-height: 50px;
 	max-width: 50px;
+	margin: 1px;
 }
 
 #profilePic {
 	float: left;
 	max-height: 200px;
 	max-width: 200px;
-	padding: 20px;
+	padding: 10px;
+}
+
+#middleNav {
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-color: #dddddd;
 }
 
 #legal {
