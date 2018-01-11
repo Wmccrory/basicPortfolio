@@ -12,12 +12,13 @@ h1 {
 	font-family: "Georgia", Times, Times New Roman, sans-serif;
 	background-color: #4aaaa5;
 	color: white;
-	font-size: 51px;
+	font-size: 50px;
 }
 
 h2 {
 	font-size: 40px;
 	color: #5e5e5e;
+	padding-left: 10px;
 }
 
 h3 {
@@ -45,7 +46,9 @@ section {
 }
 
 footer {
+	clear: both;
 	background-color: #666666;
+	border-top: solid 5px #4aaaa5;
 	height: 50px;
 	width: 960px;
 	margin: auto;
@@ -57,6 +60,7 @@ footer {
 	float: right;
 	text-align: center;
 	text-decoration: none;
+	border-radius: 15%;
 	width: 50px;
 	padding: 25px;
 	margin: 10px;
@@ -68,6 +72,15 @@ footer {
    color: white;
 }
 
+.seperator {
+	float: right;
+	height: 10px;
+	width: 10px;
+	border: solid 5px #4aaaa5;
+	border-radius: 50%;
+	margin-top: 35px;
+}
+
 .content {
 	width: 650px;
 	padding: 50px;
@@ -75,6 +88,7 @@ footer {
 
 .content p {
 	padding: 10px;
+	color: #5e5e5e;
 }
 
 .sidebar {
@@ -97,12 +111,6 @@ footer {
 	max-height: 200px;
 	max-width: 200px;
 	padding: 10px;
-}
-
-#middleNav {
-	border-left: solid 1px;
-	border-right: solid 1px;
-	border-color: #dddddd;
 }
 
 #legal {
