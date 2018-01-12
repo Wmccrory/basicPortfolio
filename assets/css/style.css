@@ -11,14 +11,14 @@ h1 {
 	padding: 20px;
 	font-family: "Georgia", Times, Times New Roman, sans-serif;
 	background-color: #4aaaa5;
-	color: white;
+	color: #ffffff;
 	font-size: 50px;
 }
 
 h2 {
+	padding-left: 10px;
 	font-size: 40px;
 	color: #5e5e5e;
-	padding-left: 10px;
 }
 
 h3 {
@@ -58,20 +58,27 @@ footer {
 
 .navbar {
 	float: right;
-	text-align: center;
-	text-decoration: none;
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	color: #4aaaa5;
 	border-radius: 15%;
 	width: 50px;
 	padding: 25px;
 	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #4aaaa5;
+	transition: all 0.5s;
 }
 
 .navbar:hover { 
-   background-color: #4aaaa5;
-   opacity: 0.6;
-   color: white;
+	background-color: #4aaaa5;
+	opacity: 0.6;
+	color: #ffffff;
+}
+
+.navbar:active {
+	background-color: #4aaaa5;
+	opacity: 0.9;
+	color: #ffffff;
 }
 
 .seperator {
@@ -90,11 +97,12 @@ footer {
 
 .content p {
 	padding: 10px;
+	line-height: 1.5;
+	font-size: 13px;
 	color: #5e5e5e;
 }
 
 .sidebar {
-	float: left;
 	margin-left: 40px;
 	padding: 50px;
 	height: 200px;
@@ -108,6 +116,39 @@ footer {
 	margin: 1px;
 }
 
+.mediaIcon:hover {
+	position: relative;
+	top: 5px;
+}
+
+.gallery {
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+
+.gallery img {
+	height: 150px;
+	width: 225px;
+	border: solid 2px black;
+}
+
+.gallery div {
+	position: absolute;
+	bottom: 30px;
+	left: 2px;
+	width: 225px;
+}
+
+.portDesc {
+	opacity: .5;
+	background: black;
+	padding: 15px 0;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
 #profilePic {
 	float: left;
 	max-height: 200px;
@@ -118,9 +159,20 @@ footer {
 	border-radius: 15%;
 }
 
+#portfolio {
+	position: relative;
+	top: 50px;
+	left: 15px;
+	padding-bottom: 400px;
+}
+
+#spacer {
+	height: 150px;
+}
+
 #legal {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	color: white;
+	color: #ffffff;
 	font-size: 10px;
 	text-align: center;
 	padding: 25px;
