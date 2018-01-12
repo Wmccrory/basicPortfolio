@@ -71,7 +71,7 @@ footer {
 	text-decoration: none;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #4aaaa5;
-/*	transition: all 0.5s;*/
+	transition: all 0.5s;
 }
 
 .navbar:hover { 
